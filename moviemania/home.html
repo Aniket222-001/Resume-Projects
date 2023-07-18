@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>home</title>
+</head>
+<style>
+    .movies {
+        display: flex;
+        justify-content: center;
+        overflow: auto;
+        scroll-behavior: smooth;
+        gap: 25px;
+        cursor: pointer;
+        margin-left: 12px;
+
+    }
+
+    .movies::-webkit-scrollbar{
+        display: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    .end{
+        width: 100%;
+        height: 350px;
+        background-color: black;
+        color: white;
+        padding-top: 25px;
+    }
+    .end p,h3,h4{
+        margin: 22px 21px;
+        /* padding-right: 42px; */
+    }
+    #searchbar{
+        float: right;
+        border-radius: 14px;
+        margin-right: 5px;
+        /* height: 20px; */
+    }
+    #search{
+        border-radius: 7px;
+        width: 300px;
+    }
+    input[type = "button"]{
+        float: right;
+        border-radius: 7px;
+    }
+    
+</style>
+
+<body>
+    <div class="frontimg">
+        <img src="images/movie wall 3" alt="" width="100%" height="300px">
+    </div>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="Movies.html" >Movies</a>
+        <a href="#" >Web series</a>
+        <a href="#" >Anime</a>
+        <a href="#" target="_blank">Manhwas</a>
+        <form action="hit" id="searchbar">
+                <input type="text" name="search" id="search" >
+                <input type="button" value="submit" >
+        </form>
+    </div>
+    <div class="hollywood">
+        <h2>Hollywood Movies</h2>
+        <div class="movies">
+            <p><a href=""><img src="images/marvel.jpg" alt="avengers infinity war" width="300px" height="200px" title="avengers infinity war" ></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+
+        </div>
+        <div class="movies">
+            <p><a href=""><img src="images/captain america" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/captain america" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/captain america" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/captain america" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+
+        </div>
+    </div>
+    <div class="bollywood">
+        <h2>Bollywood Movies</h2>
+        <div class="movies">
+            <p><a href=""><img src="images/uri" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/uri" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/uri" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/uri" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+        </div>
+    </div>
+    <div class="web_series">
+        <h2>web series</h2>
+        <div class="movies">
+            <p><a href=""><img src="images/money-heist-wallpaper-iphone-11-03.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/money-heist-wallpaper-iphone-11-03.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/money-heist-wallpaper-iphone-11-03.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/money-heist-wallpaper-iphone-11-03.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+
+        </div>
+    </div>
+    <div class="Anime">
+        <h2>Animes</h2>
+        <div class="movies">
+            <p><a href="download.html"><img src="images/spy.jfif" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/spy.jfif" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/spy.jfif" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/spy.jfif" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+
+        </div>
+    </div>
+    <div class="Manhwas">
+        <h2>Manhwas</h2>
+        <div class="movies">
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+            <p><a href=""><img src="images/marvel.jpg" alt="" width="300px" height="200px"></a><a href="#">Avengers
+                    infinity war</a></p>
+
+        </div>
+    </div>
+
+    <div class="end">
+        <h3>copyright-874893</h3>
+        <br>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae debitis eos quos impedit eaque quaerat doloremque culpa tenetur nemo voluptatem provident et, necessitatibus pariatur iste magnam itaque. Recusandae soluta voluptatibus numquam quae animi provident nihil?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem repudiandae tempora ea officia qui aperiam explicabo assumenda fugiat nam! Perspiciatis quibusdam neque consequatur vel voluptate nisi repellat eum! Libero asperiores officia, maxime harum, accusamus, odit labore est nam tempora minus perferendis praesentium dolorum quia. Recusandae veniam tenetur libero, non voluptatum vero provident fugiat a numquam?</p>
+        <br>
+        
+        <h4>made by Aniket kushwaha</h4>
+    </div>
+
+
+
+</body>
+
+</html>
